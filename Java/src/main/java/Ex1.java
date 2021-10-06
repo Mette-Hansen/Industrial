@@ -30,7 +30,7 @@ public class Ex1 {
         Expression third_constraint = model.addExpression("Third constraint")
                 .upper(2)
                 .set(ex1_x, 1)
-                .set(ex1_y, -2);
+                .set(ex1_y, -1);
 
         Optimisation.Result result = model.maximise();
 
